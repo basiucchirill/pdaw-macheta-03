@@ -21,11 +21,6 @@ body {
     font-size: 13px;
 }
 
-.top-header div {
-    display: flex;
-    gap: 10px;
-}
-
 .header {
     position: sticky;
     top: 0;
@@ -214,13 +209,13 @@ body {
 }
 
 .features-cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 25px;
     text-align: left;
 }
 
 .feature-card {
-    flex: 1;
     background-color: white;
     border-top: 4px solid #E11D48;
     padding: 30px;
@@ -255,4 +250,119 @@ body {
     color: #64748B;
     font-size: 15px;
     line-height: 1.6;
+}
+
+.programs {
+    background-color: white;
+    padding: 60px 35px;
+    text-align: center;
+}
+
+.programs-label {
+    color: #E11D48;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.programs h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 34px;
+    color: #111827;
+}
+
+.programs-description {
+    color: #64748B;
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+
+.programs-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    text-align: left;
+}
+
+.program-card {
+    display: flex;
+    gap: 20px;
+    min-width: 0;
+}
+
+.program-image {
+    position: relative;
+    width: 160px;
+    height: 190px;
+    flex-shrink: 0;
+}
+
+.program-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.program-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #F59E0B;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.program-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 0;
+}
+
+.program-stars {
+    color: #F59E0B;
+    font-size: 15px;
+}
+
+.program-info h3 {
+    color: #111827;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.program-info p {
+    color: #64748B;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.program-info .program-stars {
+    color: #F59E0B;
+}
+
+.program-price {
+    margin-top: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.program-price strong {
+    display: block;
+    color: #E11D48;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+
+}
+
+.program-price a {
+    color: #E11D48;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
 }
