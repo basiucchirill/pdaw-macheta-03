@@ -722,3 +722,23 @@ body {
     color: #94A3B8;
     font-size: 13px;
 }
+
+.chat-button {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 60px;
+    height: 60px;
+    background-color: #F9A451;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 25px;
+    z-index: 200;
+}
+
+.chat-button:hover {
+    background-color: #F59E0B;
+}
