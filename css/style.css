@@ -502,3 +502,75 @@ body {
     grid-column: span 2;
 }
 
+.schedule {
+    background-color: #F9FAFB;
+    padding: 70px 40px;
+    text-align: center;
+}
+
+.schedule-label {
+    color: #E11D48;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.schedule h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 34px;
+    color: #111827;
+}
+
+.schedule-description {
+    color: #64748B;
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+
+.schedule-grid {
+    display: grid;
+    grid-template-columns: 100px repeat(6, 1fr);
+    border: 1px solid #E2E8F0;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.schedule-head {
+    background-color: #111827;
+    color: white;
+    padding: 18px 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.schedule-time{
+    background-color: white;
+    padding: 20px 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.schedule-cell {
+    background-color: white;
+    padding: 7px 5px;
+    min-height: 65px;
+}
+
+.schedule-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #FCE7EF;
+    border-left: 4px solid #E11D48;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #111827;
+}
+
+.schedule-time.gray,
+.schedule-cell.gray {
+    background-color: #F9FAFB;
+}
