@@ -574,3 +574,70 @@ body {
 .schedule-cell.gray {
     background-color: #F9FAFB;
 }
+
+.signup {
+    background-color: #E11D48;
+    padding: 45px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.signup-text {
+    color: white;
+    max-width: 430px;
+}
+
+.signup-text h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.signup-text p {
+    font-size: 15px;
+    color: #FFE7EF;
+}
+
+.signup-form {
+    width: 480px;
+    background-color: white;
+    border-radius: 4px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.signup-form input {
+    flex: 1;
+    height: 46px;
+    border: none;
+    outline: none;
+    padding: 0 18px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #64748B;
+    background-color: transparent;
+}
+
+.signup-form button {
+    height: 46px;
+    border: none;
+    border-radius: 3px;
+    background-color: #F2A74B;
+    color: white;
+    padding: 0 14px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.signup-form button:hover {
+    background-color: #E89A39;
+}
